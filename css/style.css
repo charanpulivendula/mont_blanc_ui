@@ -1,0 +1,122 @@
+@font-face{
+    font-family: 'eurostile-extended-bold';
+    src: url(../fonts/eurostile_extended_black.ttf)
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: url('../fonts/EurostileExtendedBlack.ttf');
+    /* background-color: #00001a !important; */
+    background-color: #000000 !important;
+}
+
+.container{
+
+}
+
+#Navigation{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#Navigation .logo{
+    position: absolute;
+    width: 20px;
+    /* background-image: linear-gradient(to bottom right,#9F5F12,#913500, #0E0800,#913500,#D0BE89); */
+}
+
+
+.navigation{
+    background-color: transparent;
+    /* display: inline; */
+    margin-top: 1%;
+    margin-left: 60%;
+    position: absolute;
+   
+}
+.navigation ul{
+    
+  position: -webkit-sticky; 
+  /* width: 80%; */
+  list-style-type: none;
+  
+
+      
+}
+.navigation ul li{
+    float: left;
+    display: inline;
+    
+}
+
+.navigation ul li:hover{
+    background-image: linear-gradient(to bottom right,#9F5F12,#913500, #0E0800,#913500,#D0BE89);
+    
+}
+.navigation ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+  text-decoration: none;
+}
+
+.navigation ul li a h1{
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.navigation ul li a h1:hover{
+    
+}
+.mainLeft{
+    position: absolute;
+    display: inline-block;
+}
+.center{
+    margin-top: 10%;
+    /* position: absolute; */
+}
+.BikeAnime{
+    z-index: 1;
+}
+.Anime{
+    /* z-index: 1; */
+    position: absolute;
+    float: left;
+}
+
+.chinese{
+    z-index: 3;
+    position: relative;
+}
+.certified{
+    margin-left: 75%; 
+    margin-top: 20%;
+    z-index: 3;
+    position: absolute;
+}
+.wheel{
+    display: inline-block;
+    margin-left: 100%;
+    margin-top: 5%;
+}
+.shockabsorber{
+    display: inline-block;
+    margin-left: 100%;
+    margin-top: -10%;
+}
+.features{
+    margin-top: 10%;
+    float:right;
+}
+.features ul{
+    margin: 20px;
+}
+.features ul li{
+    padding: 10px;
+}
+.features ul li a img{
+    height: 100px;
+    width: auto;
+}
