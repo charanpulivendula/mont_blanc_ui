@@ -29,7 +29,7 @@ body{
 .navigation{
     background-color: transparent;
     /* display: inline; */
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 60%;
     position: absolute;
    
@@ -112,11 +112,21 @@ body{
 }
 .features ul{
     margin: 20px;
+    background-image: linear-gradient(to right,#D0BE89,#D0BE89,#D0BE89,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#9F5F12,#913500);
+    list-style: none;
 }
 .features ul li{
     padding: 10px;
 }
+
+.features ul li:hover{
+    background-image: linear-gradient(to right,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#0E0800,#913500);
+}
+
 .features ul li a img{
     height: 100px;
     width: auto;
+}
+.info{
+    margin-top: 40%;
 }
